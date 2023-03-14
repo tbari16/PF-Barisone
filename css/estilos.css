@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: rgb(195, 227,238);
+}
+
+.logoVikingo{
+    width: 180px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+a:hover{
+    background-color: white;
+}
+
+#footer img {
+    width: 30px; 
+}
+
+/* Index estilos*/
+.fondoBoton {
+    background-image: url(../img/SNKRS\ inicio.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 52rem;
+    width: 100%;
+}
+.boton {
+    background-color: rgb(164, 226, 247);
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton h3 {
+    font-size: 70px;
+}
+
+#button {
+    border-radius: 10px;
+    width: 100px;
+}
+
+.deco{
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+    border-radius: 25px;
+}
