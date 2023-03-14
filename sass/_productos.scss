@@ -1,0 +1,59 @@
+@use "vars";
+
+.verde {
+    background-color: vars.$futbol;
+}
+
+.naranja {
+    background-color: vars.$training;
+}
+
+.marron {
+    background-color: vars.$sb;
+}
+
+.azul {
+    background-color: vars.$sobreN;
+}
+
+.rosa {
+    background-color: vars.$running;
+}
+
+.productos {
+    width: 95%;
+    border-radius: 20px;
+}
+
+.productos_index {
+    @extend .productos;
+    background-image: radial-gradient(rgb(197, 224, 234),rgb(63, 182, 222));
+}
+
+.productos--verde {
+    @extend .productos;
+    background-image: radial-gradient(rgb(195, 238, 199), rgb(53, 219, 66));
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.productos--rosa{
+    @extend .productos;
+    background-image: radial-gradient(rgb(240, 202, 208), rgb(239, 113, 134));
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.productos--marron {
+    @extend .productos;
+    background-image: radial-gradient(rgb(227, 172, 172), rgb(134, 70, 70));
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.productos--naranja {
+    @extend .productos;
+    background-image: radial-gradient(rgb(216, 187, 134), rgb(150, 103, 14));
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

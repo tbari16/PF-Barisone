@@ -1,0 +1,94 @@
+@use "vars";
+
+.fondoBoton {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 52rem;
+    width: 100%;
+}
+.boton {
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fondoBoton--index{
+    @extend .fondoBoton;
+    background-image: url(../img/SNKRS\ inicio.webp);
+}
+
+.boton--index {
+    @extend .boton;
+    background-color: rgb(164, 226, 247);
+
+    h3 {
+        font-size: 70px;
+    }
+}
+
+.fondoBoton--futbol {
+    @extend .fondoBoton;
+    background-image: url(../img/futbol-inicio.jfif);
+}
+
+.boton--futbol {
+    @extend .boton;
+    background-color: vars.$futbol;
+
+    h3 {
+        font-size: 70px;
+    }
+}
+
+.fondoBoton--running {
+    @extend .fondoBoton;
+    background-image: url(../img/running_inicio.jpg);
+}
+
+.boton--running {
+    @extend .boton;
+    background-color: vars.$running;
+
+    h3 {
+        font-size: 70px;
+    }
+}
+
+.fondoBoton--sb {
+    @extend .fondoBoton;
+    background-image: url(../img/sb_inicio.jpg);
+}
+
+.boton--sb {
+    @extend .boton;
+    background-color: vars.$sb;
+
+    h3 {
+        font-size: 40px;
+    }
+}
+
+.fondoBoton--training {
+    @extend .fondoBoton;
+    background-image: url(../img/training_inicio.jpg);
+}
+
+.boton--training {
+    @extend .boton;
+    background-color: vars.$training;
+
+    h3 {
+        font-size: 70px;
+    }
+}

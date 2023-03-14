@@ -1,66 +1,258 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container-fluid{
-    background-color: rgb(195, 227,238);
-}
-
-.logoVikingo{
-    width: 180px;
+.container-fluid {
+  background-color: rgb(164, 226, 247);
 }
 
 #logo {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
-a:hover{
-    background-color: white;
+a:hover {
+  background-color: white;
+  border-radius: 10px;
 }
 
 #footer img {
-    width: 30px; 
+  width: 30px;
 }
 
 /* Index estilos*/
-.fondoBoton {
-    background-image: url(../img/SNKRS\ inicio.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 52rem;
-    width: 100%;
-}
-.boton {
-    background-color: rgb(164, 226, 247);
-    border-radius: 15px;
-    height: 200px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.boton h3 {
-    font-size: 70px;
-}
-
 #button {
-    border-radius: 10px;
-    width: 100px;
+  border-radius: 10px;
+  width: 100px;
 }
 
-.deco{
-    width: 90%;
-    height: 90%;
-    padding: 5px;
-    border-radius: 25px;
+.deco {
+  width: 90%;
+  height: 90%;
+  padding: 5px;
+  border-radius: 25px;
 }
+
+.verde {
+  background-color: rgb(149, 218, 149);
+}
+
+.naranja {
+  background-color: rgb(238, 206, 147);
+}
+
+.marron {
+  background-color: rgb(250, 144, 144);
+}
+
+.azul {
+  background-color: rgb(90, 168, 216);
+}
+
+.rosa {
+  background-color: rgb(236, 188, 196);
+}
+
+.productos, .productos--naranja, .productos--marron, .productos--rosa, .productos--verde, .productos_index {
+  width: 95%;
+  border-radius: 20px;
+}
+
+.productos_index {
+  background-image: radial-gradient(rgb(197, 224, 234), rgb(63, 182, 222));
+}
+
+.productos--verde {
+  background-image: radial-gradient(rgb(195, 238, 199), rgb(53, 219, 66));
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.productos--rosa {
+  background-image: radial-gradient(rgb(240, 202, 208), rgb(239, 113, 134));
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.productos--marron {
+  background-image: radial-gradient(rgb(227, 172, 172), rgb(134, 70, 70));
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.productos--naranja {
+  background-image: radial-gradient(rgb(216, 187, 134), rgb(150, 103, 14));
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contenedorT {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 1200px;
+  height: 450px;
+  border-radius: 25px;
+}
+.contenedorT h2 {
+  font-size: 40px;
+}
+.contenedorT p {
+  font-size: 20px;
+}
+
+@media (min-width: 820px) and (max-width: 1220px) {
+  .contenedorT {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 450px;
+    border-radius: 25px;
+  }
+  .contenedorT h2 {
+    font-size: 30px;
+  }
+  .contenedorT p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 510px) and (max-width: 819px) {
+  .contenedorT {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 450px;
+    border-radius: 25px;
+  }
+  .contenedorT h2 {
+    font-size: 30px;
+  }
+  .contenedorT p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 420px) and (max-width: 509px) {
+  .contenedorT {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 550px;
+    border-radius: 25px;
+  }
+  .contenedorT h2 {
+    font-size: 30px;
+  }
+  .contenedorT p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 419px) {
+  .contenedorT {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 680px;
+    border-radius: 25px;
+  }
+  .contenedorT h2 {
+    font-size: 30px;
+  }
+  .contenedorT p {
+    font-size: 15px;
+  }
+}
+.fondoBoton, .fondoBoton--training, .fondoBoton--sb, .fondoBoton--running, .fondoBoton--futbol, .fondoBoton--index {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 52rem;
+  width: 100%;
+}
+
+.boton, .boton--training, .boton--sb, .boton--running, .boton--futbol, .boton--index {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondoBoton--index {
+  background-image: url(../img/SNKRS\ inicio.webp);
+}
+
+.boton--index {
+  background-color: rgb(164, 226, 247);
+}
+.boton--index h3 {
+  font-size: 70px;
+}
+
+.fondoBoton--futbol {
+  background-image: url(../img/futbol-inicio.jfif);
+}
+
+.boton--futbol {
+  background-color: rgb(149, 218, 149);
+}
+.boton--futbol h3 {
+  font-size: 70px;
+}
+
+.fondoBoton--running {
+  background-image: url(../img/running_inicio.jpg);
+}
+
+.boton--running {
+  background-color: rgb(236, 188, 196);
+}
+.boton--running h3 {
+  font-size: 70px;
+}
+
+.fondoBoton--sb {
+  background-image: url(../img/sb_inicio.jpg);
+}
+
+.boton--sb {
+  background-color: rgb(250, 144, 144);
+}
+.boton--sb h3 {
+  font-size: 40px;
+}
+
+.fondoBoton--training {
+  background-image: url(../img/training_inicio.jpg);
+}
+
+.boton--training {
+  background-color: rgb(238, 206, 147);
+}
+.boton--training h3 {
+  font-size: 70px;
+}
+
+.card {
+  height: 450px;
+  width: 340px;
+  transition: all 0.5s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.navbar-nav li a {
+  transition: all 0.5s;
+}
+.navbar-nav li a:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=estilos.css.map */
